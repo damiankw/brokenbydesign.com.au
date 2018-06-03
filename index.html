@@ -1,183 +1,210 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 
 
-  <title>Broken by Design</title>
+    <title>Broken by Design</title>
 
-  <!--  -->
+    <!--  -->
 
-  <style>
+    <style>
     .broken-pad {
       padding-bottom: 7px;
       padding-top: 7px;
     }
-    
+
     .broken-img {
       padding: 10px;
     }
-  </style>
+    </style>
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <div class="container">
+    <div class="container">
 
-    <!-- Image Modal -->
-    <div class="modal fade" id="big-img" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="modal-head">&nbsp;</h4>
+      <!-- Image Modal -->
+      <div class="modal fade" id="big-img" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="modal-head">&nbsp;</h4>
+            </div>
+            <div class="modal-body">
+              <img src="images/piece0.jpg" class="img-responsive" id="modal-img">
+            </div>
           </div>
-          <div class="modal-body">
-            <img src="images/piece0.jpg" class="img-responsive" id="modal-img">
+        </div>
+      </div>
+
+      <div class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+              <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/header.png" class="img-responsive center-block" width="500px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-sm-offset-1 col-md-6 col-sm-8 broken-pad">
+          <p class="text-justify">The idea for Broken By Design originated out of our hobby of gold prospecting, metal detecting and relic hunting. Obviously much of where we pursue this hobby is in and around abandoned homesteads and townships. The people and the places may be long gone but the crockery and china which were once very much a part of their lives, remain - Broken, forgotten and lost over time.</p>
+        </div>
+        <div class="col-md-2 col-sm-2 broken-pad">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#big-img" data-img="discovery" data-desc="Found anywhere!"><img src="images/th-discovery.jpg" class="img-responsive img-circle center-block" width="200px"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-sm-offset-1 col-md-2 col-sm-2 broken-pad">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#big-img" data-img="piece0" data-desc="Hanging china"><img src="images/th-piece0.jpg" class="img-responsive img-circle center-block" width="200px"></a>
+        </div>
+        <div class="col-md-6 col-sm-8 broken-pad">
+          <p class="text-justify">Shards of broken china unearthed from old settlements and redesigned into treasured pieces of jewellery are to be found in the Broken By Design “Heritage” collection. Australia’s settlers brought with them hopes and dreams as well as everyday items. Some built empires, others struggled, but all left behind clues as to how they lived. Today we fossick far and wide, uncovering china fragments – literally pieces of history. Working with patience and creativity we rebirth these shards into unique, bespoke pieces, each of which has a story of its own.   Once buried, now brought to life, adventure and beauty are now yours to wear and cherish.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-sm-offset-1 col-md-6 col-sm-8 broken-pad">
+          <p class="text-justify">Broken By Design have created additional collections which include vintage, retro and contemporary pieces. China used in these collections have been discovered by rummaging through discarded wares from a variety of sources including garage sales, op shops and school fairs.</p>
+
+          <p class="text-justify">Broken By Design also offers a “bespoke service”. Ever wondered what to do with Nanna's chipped or accidentally damaged pieces of old china? Why not have them redesigned into beautiful jewellery that can be treasured and worn with love? What about a unique gift for the bridal party at a wedding? Jewellery pieces can be created out of a memorable piece of china that is significant to the bride, worn as part of the wedding and a lovely momento for all to treasure.</p>
+        </div>
+        <div class="col-md-2 col-sm-2 broken-pad">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#big-img" data-img="action" data-desc="Options and Outcomes"><img src="images/th-action.jpg" class="img-responsive img-circle center-block" width="200px"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece1" data-desc="China mug in silver"><img src="images/th-piece1.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece2" data-desc="China plate in silver"><img src="images/th-piece2.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece3" data-desc="Rose in a silver rose"><img src="images/th-piece3.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece4" data-desc="China plate"><img src="images/th-piece4.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece5" data-desc="Quartz leaf"><img src="images/th-piece5.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece6" data-desc="China leaf"><img src="images/th-piece6.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece7" data-desc="China leaf in silver"><img src="images/th-piece7.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece8" data-desc="Clear ring"><img src="images/th-piece8.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece9" data-desc="Opaque round ring"><img src="images/th-piece9.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piecea" data-desc="Opaque heart ring"><img src="images/th-piecea.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="pieceb" data-desc="China leaf in gold"><img src="images/th-pieceb.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piecec" data-desc="China heart in gold"><img src="images/th-piecec.jpg" class="img-circle broken-img img-responsive"></a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="pieced" data-desc="China pointed (Dark)"><img src="images/th-pieced.jpg" class="img-circle broken-img img-responsive"></a>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div class="modal fade" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            <p>One fine body&hellip;</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    
-    <div class="row">
-      <div class="col-md-12">
-        <img src="images/header.png" class="img-responsive center-block" width="500px">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <hr>
+        </div>
+      </div>
+      <div class="row broken-pad">
+        <div class="col-md-offset-2 col-md-8">
+          <a href="https://madeit.com.au/Main/Store?userid=131399" target="_blank"><img class="center-block"src="images/visitmyshop.gif" border="0" /></a>
+        </div>
+      </div>
+      <div class="row broken-pad">
+        <div class="col-md-offset-1 col-md-5 text-justify">
+          <iframe class="center-block" style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrokenbydesign.au&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+        <div class="col-md-5">
+          <iframe class="center-block" style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrokenbydesign.au&tabs=events&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8">
+          <hr>
+          <small>Silver and gold toned base metal bales and findings are used in our jewellery and may not be suitable for sensitive skin.</small>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 text-center">
+          <p>Email <a href="mailto:graham@brokenbydesign.com.au">graham@brokenbydesign.com.au</a> to get in touch</p>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-sm-offset-1 col-md-6 col-sm-8 broken-pad">
-        <p class="text-justify">The idea for Broken By Design originated out of our hobby of gold prospecting, metal detecting and relic hunting. Obviously much of where we pursue this hobby is in and around abandoned homesteads and townships. The people and the places may be long gone but the crockery and china which were once very much a part of their lives, remain - Broken, forgotten and lost over time.</p>
-      </div>
-      <div class="col-md-2 col-sm-2 broken-pad">
-        <a href="#" class="thumbnail" data-toggle="modal" data-target="#big-img" data-img="discovery" data-desc="Found anywhere!"><img src="images/th-discovery.jpg" class="img-responsive img-circle center-block" width="200px"></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-sm-offset-1 col-md-2 col-sm-2 broken-pad">
-        <a href="#" class="thumbnail" data-toggle="modal" data-target="#big-img" data-img="piece0" data-desc="Hanging china"><img src="images/th-piece0.jpg" class="img-responsive img-circle center-block" width="200px"></a>
-      </div>
-      <div class="col-md-6 col-sm-8 broken-pad">
-        <p class="text-justify">Shards of broken china unearthed from old settlements and redesigned into treasured pieces of jewellery are to be found in the Broken By Design “Heritage” collection. Australia’s settlers brought with them hopes and dreams as well as everyday items. Some built empires, others struggled, but all left behind clues as to how they lived. Today we fossick far and wide, uncovering china fragments – literally pieces of history. Working with patience and creativity we rebirth these shards into unique, bespoke pieces, each of which has a story of its own.   Once buried, now brought to life, adventure and beauty are now yours to wear and cherish.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <hr>
-      </div>
-    </div>
-    <div class="row broken-pad">
-      <div class="col-md-offset-2 col-md-8">
-        <p class="text-justify">Broken By Design have created additional collections which include vintage, retro and contemporary pieces. China used in these collections have been discovered by rummaging through discarded wares from a variety of sources including garage sales, op shops and school fairs.</p>
 
-        <p class="text-justify">Broken By Design also offers a “bespoke service”. Ever wondered what to do with Nanna's chipped or accidentally damaged pieces of old china? Why not have them redesigned into beautiful jewellery that can be treasured and worn with love? What about a unique gift for the bridal party at a wedding? Jewellery pieces can be created out of a memorable piece of china that is significant to the bride, worn as part of the wedding and a lovely momento for all to treasure.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece1" data-desc="China mug in steel"><img src="images/th-piece1.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece2" data-desc="China plate in steel"><img src="images/th-piece2.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece3" data-desc="Rose in a steel rose"><img src="images/th-piece3.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece4" data-desc="Sum'in sum'in"><img src="images/th-piece4.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece5" data-desc="Quartz leaf"><img src="images/th-piece5.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece6" data-desc="China leaf"><img src="images/th-piece6.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-          <a href="#" class="thumbnail big-img" data-toggle="modal" data-target="#big-img" data-img="piece7" data-desc="China leaf in steel"><img src="images/th-piece7.jpg" class="img-circle broken-img img-responsive"></a>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <hr>
-      </div>
-    </div>
-    <div class="row broken-pad">
-      <div class="col-md-offset-2 col-md-8 text-justify">
-        <iframe class="center-block" style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrokenbydesign.au&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="500" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-      </div>
-    </div>
-    <div class="row broken-pad">
-      <div class="col-md-offset-2 col-md-8">
-        <a href="https://madeit.com.au/Main/Store?userid=131399" target="_blank"><img class="center-block" src="http://images.madeit.com.au/madeit/badges/visitmyshop1.gif" border="0" /></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8">
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-offset-2 col-md-8 text-center">
-        <p>Email <a href="mailto:graham@brokenbydesign.com.au">graham@brokenbydesign.com.au</a> to get in touch</p>
-      </div>
-    </div>
-  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
 
-  <script>
+$(function () {
+  var thumbnails = document.getElementsByClassName('thumbnail');  // get a list of all #command's
 
-    $(function () {
-      var thumbnails = document.getElementsByClassName('thumbnail');  // get a list of all #command's
-      
-      for (var i = 0; i < thumbnails.length; i++) {                 // loop through all commands
-        thumbnails[i].onclick = function() {                        // write an onclick event
-          var img = document.getElementById('modal-img');
-          var desc = document.getElementById('modal-head');
-          img.src = 'images/'+this.dataset.img+'.jpg';
-          desc.innerHTML = this.dataset.desc;
-          return false;
-        }
-      }
-    
-    });
+  for (var i = 0; i < thumbnails.length; i++) {                 // loop through all commands
+    thumbnails[i].onclick = function() {                        // write an onclick event
+      var img = document.getElementById('modal-img');
+      var desc = document.getElementById('modal-head');
+      img.src = 'images/'+this.dataset.img+'.jpg';
+      desc.innerHTML = this.dataset.desc;
+      return false;
+    }
+  }
 
-  </script>
+});
 
-</body>
+    </script>
+
+  </body>
 
 </html>
